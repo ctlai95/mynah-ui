@@ -72,7 +72,8 @@ export enum MynahIcons {
   MESSAGE = 'message',
   TRASH = 'trash',
   TRANSFORM = 'transform',
-  HISTORY = 'history'
+  HISTORY = 'history',
+  SHELL = 'shell'
 }
 
 export type MynahIconsType = `${MynahIcons}`;

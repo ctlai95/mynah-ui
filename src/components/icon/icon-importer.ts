@@ -72,6 +72,7 @@ import HISTORY from './icons/history.svg';
 import MESSAGE from './icons/message.svg';
 import TRASH from './icons/trash.svg';
 import TRANSFORM from './icons/transform.svg';
+import SHELL from './icons/shell.svg';
 
 export class MynahUIIconImporter {
   private static instance: MynahUIIconImporter;
@@ -141,7 +142,8 @@ export class MynahUIIconImporter {
       MESSAGE,
       TRASH,
       TRANSFORM,
-      HISTORY
+      HISTORY,
+      SHELL
     };
     DomBuilder.getInstance().createPortal('mynah-ui-icons', {
       type: 'style',
